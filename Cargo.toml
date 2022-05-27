@@ -8,5 +8,6 @@ edition = "2021"
 [dependencies]
 eframe = { version = "0.18.0", features = ["persistence"] }
 egui = { version = "0.18.1", features = ["tracing", "persistence"] }
+egui_extras = { version = "0.18.0", features = ["serde", "tracing"] }
 serde = { version = "1.0.137", features = ["derive"] }
 tracing-subscriber = "0.3.11"
