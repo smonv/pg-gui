@@ -1,0 +1,12 @@
+[package]
+name = "pg-gui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = { version = "0.18.0", features = ["persistence"] }
+egui = { version = "0.18.1", features = ["tracing", "persistence"] }
+serde = { version = "1.0.137", features = ["derive"] }
+tracing-subscriber = "0.3.11"
